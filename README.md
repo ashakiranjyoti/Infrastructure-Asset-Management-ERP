@@ -19,31 +19,31 @@ This is a **portfolio project** demonstrating enterprise-level asset management 
 
 ## 📊 ERP Modules Implemented
 
-### 1. Asset Management Module
+## 1. Asset Management Module
 - Site registration and categorization
 - Tubewell installation tracking
 - LCS system configuration
 - Asset lifecycle management
 
-### 2. Inventory & Maintenance Module
+## 2. Inventory & Maintenance Module
 - Daily status monitoring
 - Preventive maintenance scheduling
 - Spare parts inventory
 - Maintenance history tracking
 
-### 3. Human Resource Module
+## 3. Human Resource Module
 - Role-based access control (Admin/Manager/User)
 - User activity monitoring
 - Task assignment and tracking
 - Performance reporting
 
-### 4. Reporting & Analytics Module
+## 4. Reporting & Analytics Module
 - Real-time dashboard
 - Custom report generation
 - PDF/Excel exports
 - Audit trail maintenance
 
-### 5. Document Management Module
+## 5. Document Management Module
 - Media uploads (images/videos)
 - Document version control
 - Secure file storage
@@ -51,13 +51,13 @@ This is a **portfolio project** demonstrating enterprise-level asset management 
 
 ## 🏗️ System Architecture
 
-### Backend Architecture
+## Backend Architecture
 - **Core:** PHP 8.x (Procedural with modular structure)
 - **Database:** MySQL 8.0 with optimized queries
 - **Authentication:** Session-based with role management
 - **Security:** Prepared statements, input sanitization, XSS protection
 
-### Frontend Architecture
+## Frontend Architecture
 - **UI Framework:** Custom CSS with responsive design
 - **JavaScript:** Vanilla JS for DOM manipulation
 - **Components:** Reusable PHP includes
@@ -66,19 +66,19 @@ This is a **portfolio project** demonstrating enterprise-level asset management 
 
 ## 🔐 ERP Security Features
 
-### Access Control
+## Access Control
 - Three-tier role system (Admin/Manager/User)
 - Session-based authentication
 - Page-level authorization
 - Activity logging
 
-### Data Security
+## Data Security
 - SQL injection prevention via prepared statements
 - Cross-site scripting (XSS) protection
 - Input validation and sanitization
 - Secure file upload handling
 
-### Compliance Features
+## Compliance Features
 - Complete audit trail
 - User activity monitoring
 - Data integrity checks
@@ -86,7 +86,7 @@ This is a **portfolio project** demonstrating enterprise-level asset management 
 
 ## 📈 Business Process Automation
 
-### Workflow Automation
+## Workflow Automation
 1. **Site Registration Workflow**
    - New site creation → Asset allocation → Team assignment → Status activation
 
@@ -96,7 +96,7 @@ This is a **portfolio project** demonstrating enterprise-level asset management 
 3. **Reporting Workflow**
    - Data collection → Validation → Processing → Report generation → Distribution
 
-### Integration Points
+## Integration Points
 - Centralized database for all modules
 - Shared authentication system
 - Unified reporting engine
@@ -104,14 +104,14 @@ This is a **portfolio project** demonstrating enterprise-level asset management 
 
 ## 🚀 Installation & Deployment
 
-### System Requirements
+## System Requirements
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
 - Apache/Nginx web server
 - 2GB RAM minimum
 - 500MB disk space
 
-### Installation Steps
+## Installation Steps
 
 # 1. Clone repository
 git clone https://github.com/ashakiranjyoti/Infrastructure-Asset-Management-ERP.git
@@ -129,27 +129,27 @@ cp config/config.example.php config/config.php
 # 5. Access ERP system
 http://your-domain.com/erp/
 
-### 📊 Key Performance Indicators (KPIs)
+## 📊 Key Performance Indicators (KPIs)
 # Operational KPIs
 - Asset utilization rate: 95%
 - Maintenance response time: < 24 hours
 - Report generation time: < 30 seconds
 - System uptime: 99.5%
 
-### Business Impact
+## Business Impact
 - Reduced manual reporting time by 85%
 - Improved asset tracking accuracy by 90%
 - Decreased maintenance costs by 40%
 - Enhanced regulatory compliance by 100%
 
-### 🔧 Technical Highlights
+## 🔧 Technical Highlights
 # Database Optimization
 - Indexed foreign keys for faster joins
 - Query caching for frequent reports
 - Partitioned tables for historical data
 - Regular optimization scheduling
 
-### Code Architecture
+## Code Architecture
 - Modular PHP structure
 - Reusable function libraries
 - Centralized configuration
