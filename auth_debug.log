@@ -1,0 +1,4 @@
+2025-10-17T14:48:59+05:30 username=Kavita user_found=yes stored_preview=kavita... algo=N/A note=wrong_password
+2025-10-17T14:48:59+05:30 username=Kavita user_found=no stored_preview=(no-user) algo=N/A note=no_user_or_failed
+2025-10-17T14:49:03+05:30 username=Ashakiran user_found=yes stored_preview=123... algo=N/A note=wrong_password
+2025-10-17T14:49:03+05:30 username=Ashakiran user_found=no stored_preview=(no-user) algo=N/A note=no_user_or_failed
