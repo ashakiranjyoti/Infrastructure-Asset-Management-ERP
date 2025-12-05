@@ -19,7 +19,7 @@ This is a **portfolio project** demonstrating enterprise-level asset management 
 
 ## 📊 ERP Modules Implemented
 
-## 1. Asset Management Module
+## 1. Asset Management Modules
 - Site registration and categorization
 - Tubewell installation tracking
 - LCS system configuration
