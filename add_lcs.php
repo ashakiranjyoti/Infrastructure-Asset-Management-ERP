@@ -32,7 +32,7 @@ $ss->execute();
 $site = $ss->get_result()->fetch_assoc();
 if (!$site) { die('Site not found.'); }
 
-// Prevent adding if already exists
+// Prevent adding if already exist
 $chk = $conn->prepare("SELECT id FROM lcs WHERE site_id = ? LIMIT 1");
 $chk->bind_param('i', $site_id);
 $chk->execute();
