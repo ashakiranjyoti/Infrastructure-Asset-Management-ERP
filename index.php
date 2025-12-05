@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 include 'db_config.php'; // includes sanitizeInput already
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // sanitize username but keep password raw
+    
     $username = sanitizeInput($_POST['username']);
     $password = isset($_POST['password']) ? $_POST['password'] : '';
 
