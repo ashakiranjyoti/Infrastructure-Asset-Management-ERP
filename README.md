@@ -146,7 +146,7 @@ cp config/config.example.php config/config.php
 - Partitioned tables for historical data
 - Regular optimization scheduling
 
-## Code Architecture
+# Code Architecture
 - Modular PHP structure
 - Reusable function libraries
 - Centralized configuration
