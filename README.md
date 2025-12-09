@@ -113,24 +113,21 @@ This is a **portfolio project** demonstrating enterprise-level asset management 
 
 ## Installation Steps
 
-# 1. Clone repository
+## 1. Clone repository
 git clone https://github.com/ashakiranjyoti/Infrastructure-Asset-Management-ERP.git
 
-# 2. Configure database
+## 2. Configure database
 mysql -u root -p < database/erp_schema.sql
 
-# 3. Set permissions
+## 3. Set permissions
 chmod 755 uploads/ reports/ cache/
 
-# 4. Configure application
+## 4. Configure application
 cp config/config.example.php config/config.php
-# Edit database credentials in config.php
-
-# 5. Access ERP system
-http://your-domain.com/erp/
+## Edit database credentials in config.php
 
 ## 📊 Key Performance Indicators (KPIs)
-# Operational KPIs
+## Operational KPIs
 - Asset utilization rate: 95%
 - Maintenance response time: < 24 hours
 - Report generation time: < 30 seconds
@@ -143,7 +140,7 @@ http://your-domain.com/erp/
 - Enhanced regulatory compliance by 100%
 
 ## 🔧 Technical Highlights
-# Database Optimization
+## Database Optimization
 - Indexed foreign keys for faster joins
 - Query caching for frequent reports
 - Partitioned tables for historical data
