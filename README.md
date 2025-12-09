@@ -154,3 +154,6 @@ http://your-domain.com/erp/
 - Reusable function libraries
 - Centralized configuration
 - Consistent error handling
+
+<img width="1908" height="894" alt="screenshot-1765284304315" src="https://github.com/user-attachments/assets/880c2e4a-6bfb-4230-bab2-e5b87f6769d7" />
+
