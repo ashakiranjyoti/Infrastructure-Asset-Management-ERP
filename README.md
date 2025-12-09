@@ -158,6 +158,10 @@ http://your-domain.com/erp/
 <img width="1908" height="894" alt="screenshot-1765284304315" src="https://github.com/user-attachments/assets/880c2e4a-6bfb-4230-bab2-e5b87f6769d7" />
 
 
+
+
+
+
 <img width="2708" height="3308" alt="localhost_g-soft-manage_view_site php_site_id=24" src="https://github.com/user-attachments/assets/673feed2-6bd2-4de0-b038-8f8a4c3c8fbe" />
 
 
