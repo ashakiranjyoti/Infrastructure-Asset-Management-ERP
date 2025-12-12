@@ -156,7 +156,7 @@ cp config/config.example.php config/config.php
 <img width="1908" height="894" alt="screenshot-1765284304315" src="https://github.com/user-attachments/assets/880c2e4a-6bfb-4230-bab2-e5b87f6769d7" />
 
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
