@@ -66,7 +66,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo json_encode(['success' => false, 'error' => 'File move failed']);
         exit;
     }
-
     $type = $isImage ? 'image' : 'video';
     if ($stmt = $conn->prepare("INSERT INTO lcs_master_media (lcs_id, file_path, file_type, uploaded_by, uploaded_at, status_date) VALUES (?, ?, ?, ?, NOW(), ?)")) {
         $stmt->bind_param('issss', $lcs_id, $uploadPath, $type, $changed_by, $status_date);
