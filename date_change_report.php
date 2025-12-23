@@ -33,7 +33,7 @@ if ($on_date !== '') {
             $d = $r['status_date']; $tid = (int)$r['tubewell_id']; $it = $r['item_name'];
             if (!isset($tw_hl[$d])) { $tw_hl[$d] = []; }
             if (!isset($tw_hl[$d][$tid])) { $tw_hl[$d][$tid] = []; }
-            $tw_hl[$d][$tid][$it] = true;
+            $tw_hl[$d][$tid][$it] = false;
         }
     }
     if ($h = $conn->prepare("SELECT status_date, lcs_id, item_name FROM lcs_status_history WHERE status_date = ?")) {
