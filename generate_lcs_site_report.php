@@ -100,7 +100,7 @@ $stmt->bind_param('iis', $site_id, $lcs_id, $to_date);
 $stmt->execute();
 $rs = $stmt->get_result();
 $rows_seq = [];
-while ($r = $rs->fetch_assoc()) { $rows_seq[] = $rr; }
+while ($r = $rs->fetch_assoc()) { $rows_seq[] = $r; }
 
 // Change dates set within range (including master note/media-only changes)
 $chg = $conn->prepare("SELECT DISTINCT status_date FROM lcs_status_history WHERE site_id = ? AND lcs_id = ? AND status_date BETWEEN ? AND ? ORDER BY status_date ASC");
