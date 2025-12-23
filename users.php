@@ -60,7 +60,7 @@ if ($res = $conn->query('SELECT id, username, password, full_name, role, access_
                 <th style="width:35%; padding: 8px; border-bottom: 2px solid #ddd;">Full Name</th>
                 <th style="width:15%; padding: 8px; border-bottom: 2px solid #ddd;">Role</th>
                 <th style="width:15%; padding: 8px; border-bottom: 2px solid #ddd;">Access</th>
-                <th style="width:15%; padding: 8px; border-bottom: 2px solid #ddd;">Action</th>
+                <th style="width:15%; padding: 8px; border-bottom: 2px solid #ddd;">Action </th>
             </tr>
         </thead>
         <tbody>
