@@ -5,8 +5,7 @@ session_start();
 
 // Expected POST: tubewell_id, site_id, status_date, item_name, make_model, size_capacity, status, remark, changed_by
 // Optional POST: contributors (comma-separated list of helper user names)
-// For HMI/Web tri-state, prefer: check_hmi_local_state (0 none, 1 ok, 2 not ok) and check_web_state (0 none, 1 ok, 2 not ok)
-// Backward-compat: if only legacy check_hmi_local/check_web (0/1) are sent, map 1->1 (ok), 0->2 (not ok)
+// For HMI/Web tri-state, prefer: check_hmi_local_state (0 none, 1 ok, 2 not ok) and check_web_state (0 none, 1 ok, 2 not ok
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
