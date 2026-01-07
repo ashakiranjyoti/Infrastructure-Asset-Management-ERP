@@ -3,8 +3,6 @@ header('Content-Type: application/json');
 include 'db_config.php';
 session_start();
 
-// Expected POST: tubewell_id, site_id, status_date, item_name, make_model, size_capacity, status, remark, changed_by
-// Optional POST: contributors (comma-separated list of helper user names)
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
