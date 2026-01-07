@@ -60,7 +60,6 @@ if ($status_date !== $today) {
     exit;
 }
 
-// Block edits if the date is locked for this tubewell
 // Ensure lock table exists (lightweight, safe if already exists)
 $conn->query("CREATE TABLE IF NOT EXISTS status_locks (
     id INT AUTO_INCREMENT PRIMARY KEY,
