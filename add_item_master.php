@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id'])) {
 include 'db_config.php';
 
 $message = '';
-$type = ''; // success or error
+$type = ''; // success or error 
 
 // Handle deletion
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_id'])) {
