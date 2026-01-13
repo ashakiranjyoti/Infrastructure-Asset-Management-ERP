@@ -377,7 +377,6 @@ $media_files = $media_stmt->get_result();
 </head>
 <body>
 <?php include('header.php'); ?>
-
 <div class="container">
     <div class="card">
         <div class="progress-steps">
