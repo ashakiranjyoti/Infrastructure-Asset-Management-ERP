@@ -74,7 +74,6 @@ if ($selected_date) {
             $row_updated_at_selected[$row['item_name']] = $row['updated_at'];
         }
     }
-
     // Count items added on this date
     $count_sql = "SELECT COUNT(*) as c FROM status_history WHERE tubewell_id = ? AND status_date = ?";
     $stmt = $conn->prepare($count_sql);
