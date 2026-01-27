@@ -10,7 +10,6 @@ include 'db_config.php';
 
 $message = '';
 $type = ''; // success or error
-
 // Handle deletion
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_id'])) {
     $del_id = (int)($_POST['delete_id'] ?? 0);
