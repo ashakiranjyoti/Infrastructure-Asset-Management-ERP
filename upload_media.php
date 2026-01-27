@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
     } else {
-        // Even if no media uploaded, still save other changes
+        // Even if no media uploaded, still save other change
         $response['success'] = true;
     }
 }
