@@ -9,7 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode(['error' => 'Method not allowed']);
     exit;
 }
-
 // Helper to read scalar string
 function read_str($key) { return isset($_POST[$key]) ? trim($_POST[$key]) : ''; }
 function read_int($key) { return isset($_POST[$key]) ? (int)$_POST[$key] : 0; }
